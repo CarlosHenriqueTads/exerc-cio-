@@ -1,0 +1,95 @@
+/********
+********** formtação geral ******/
+
+body, html{
+    margin: 0;
+    color: #777;
+    font: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100%;
+        }
+.conteudo{
+    text-align: justify;
+    padding: 50px 80px;
+    color: #777;
+    background-color: white;
+}
+h3{
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+}
+    p{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+/****** Efeito Parallax ******/
+.caixa{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.caixa1{
+    background-image: url("imagens/saber.jpeg");
+}
+.caixa2{
+    background-image: url("imagens/648557.jpg");
+}
+.caixa3{
+    background-image: url("imagens/640956.jpg");
+}
+.caixa4{
+    background-image: url("imagens/saitama.png");
+}
+.conteudo-caixa{
+    position: absolute;
+    width: 100%;
+    top: 65%;
+    text-align: center;        
+}
+.conteudo-caixa span{
+    background-color: #111;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 25px;
+    padding: 18px;
+    letter-spacing: 5px;
+}
+/*** exercico 01 ******/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-item{
+    padding: 10px 0;
+}
+.input-number{
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid rgb(166, 166, 241);
+    margin-left: 5px;
+}
+.input-button{
+  background-color: white;
+  color: black;
+  font-weight: 800;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.input-button:hover{
+    cursor: pointer;
+    background-color:black;
+    color: white;
+    transition: background 0.6s, color 0.6s;
+    border-color: white;
+}
+.h4-return{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+  
